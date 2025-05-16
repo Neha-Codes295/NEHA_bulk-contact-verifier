@@ -64,7 +64,7 @@ export default function BulkVerifier({ credits, setCredits, addToHistory }) {
     }, 300);
 
     return () => clearInterval(timerRef.current);
-  }, [file]);
+  }, [file, addToHistory, credits.remaining, credits.used, setCredits]);
 
   function downloadResults() {
     if (!results) return;

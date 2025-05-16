@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react"; // Removed useEffect from here
 import Sidebar from "../components/Sidebar";
 import Topbar from "../components/Topbar";
 import SingleVerifier from "../components/SingleVerifier";
